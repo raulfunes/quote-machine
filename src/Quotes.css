@@ -1,0 +1,45 @@
+#quote-box{
+    width: min(80rem, 80vw);
+    height: fit-content;
+    align-self: center;
+    justify-self: center;
+
+    background-color: antiquewhite;
+    padding: 5rem 1rem;
+
+    border-radius: 3rem;
+}
+
+@media screen and (max-width: 700px){
+    #quote{
+        height: 100%;
+    }
+    #text{
+        height: fit-content;
+        background-color: red;
+    }
+}
+
+#author{
+    margin: 0;
+    height: 1rem;
+}
+
+#text{
+    font-size: 2rem;
+    height: fit-content;
+}
+
+.buttons{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+.buttons button:hover{
+    cursor: pointer;
+}
